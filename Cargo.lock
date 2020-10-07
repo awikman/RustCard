@@ -153,6 +153,7 @@ checksum = "e88a8acf291dafb59c2d96e8f59828f3838bb1a70398823ade51a84de6a6deed"
 [[package]]
 name = "fantoccini"
 version = "0.14.1"
+source = "git+https://github.com/awikman/fantoccini#0c6b7f7b0e1ef9ec58c36d05fe005f000ddb6893"
 dependencies = [
  "base64",
  "cookie 0.14.2",

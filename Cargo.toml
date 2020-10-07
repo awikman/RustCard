@@ -8,7 +8,7 @@ edition = "2018"
 
 [dependencies]
 #fantoccini = "0.14.0"
-fantoccini = { path = "/home/aleksi/Projects/fantoccini", version = "0.14.0"}
+fantoccini = { git = "https://github.com/awikman/fantoccini", version = "0.14.0"}
 webdriver = "0.41.0"
 serde_json = "1.0"
 
