@@ -1,0 +1,169 @@
+<head>
+  <style>
+    div.sample{
+        border: solid gray 1px;
+        width: 420px;
+        height: 236px;
+        margin: 10px;
+        box-shadow: 2px 2px 2px gray;
+
+        text-align: center;
+    }
+    .sample.front{
+        padding: 10px;
+        height: 216px;
+        width: 400px;
+    }
+    .sample.back{
+        
+    }
+    .front img.logo{
+        max-height: 100%;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .TitleMaalinpaikka{
+        font-family: 'Rubik', sans-serif;
+        font-weight: bold;
+        padding: 5px;
+        border: solid 1px;
+
+    }
+
+    .title.brand {
+        margin-top: 10%;
+    }
+
+    .title{
+        font-weight: bold;
+    }
+    .title.giftcard{
+        margin-top: 5px;
+        padding: 15px;
+        background-color: #40a6d3;
+    }
+
+    .Kravatti{
+	background: url("https://www.kravattikaulaan.fi/WebRoot/StoreTypes/7.51.0/VilkasStore/SF/ImageSet/Transparent/bgr_layout.png") repeat #ffffff;
+    }
+
+
+    .Mardex .title.giftcard{
+        background-color: #1c3a63;
+        color: white;
+    }
+
+    .Mardex .Container{
+        width: 90%;
+        height: 90%;
+        background: white;
+        border: 1px solid lightgrey;
+    }
+    .Mardex .Container > div{
+        margin-top: 15px;
+        font-weight: bold;
+    }
+    .Mardex .Container{
+        margin: auto;
+        margin-top: 3%;
+        border-radius: 15px;
+    }
+
+    .Mardex{
+	background: url("https://www.mardex7.com/WebRoot/Vilkas/debut_light.png") #ffffff;
+    }
+    .Mardex img.logo{
+        margin-top: 15%;
+    }
+
+
+    .Maalinpaikka .title.giftcard{
+        background-color: #464947;
+        color: white;
+    }
+    .Maalinpaikka{
+        background: url("https://www.maalinpaikka.fi/WebRoot/vilkas01/Shops/25052010-172502/MediaGallery/honey_im_subtle.png?CachePrevention=1599535806ö");
+    }
+
+    .Maalinpaikka img.logo{
+        margin-top: 10%;
+    }
+  </style>
+</head>
+<body>
+
+  <div>Card size: 105mm * 59mm</div>
+  <div>We should be able to fetch all the required information about the site using our backend API... </div>
+
+  <p> demo: kravattikaulaan.fi:</p>
+  <div style="float:left">
+    <div class="sample front Kravatti">
+      <img class="logo" src="https://www.kravattikaulaan.fi/WebRoot/vilkas04/Shops/20130801-11092-237839-1/MediaGallery/Kravattikaulaan_logo.png" />
+    </div>
+
+  </div>
+  <div style="float:left">
+    <div class="sample back Kravatti">
+      <div class="title brand">Kravattikaulaan.fi</div>
+      <div class="title giftcard">Lahjakortti</div>
+      <div class="title" style="margin-top: 10px;">-15% seuraavasta tilauksesta</div>
+      <div style="margin-top: 15px">
+        <span style="border: solid gray 1px; padding: 7px;">DYEZ-7HBX-CRUZ</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="clear: both"></div>
+  <hr />
+  <p> demo: mardex7.com</p>
+  <div style="float:left">
+    <div class="sample front Mardex">
+
+      <div class="container">
+        <img class="logo" src="https://www.mardex7.com/WebRoot/vilkasfi02/Shops/2016122803/Styles/Vilkas[1]/logo.png" />
+        <div>
+          <span class="Title">mardex7.com</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <div style="float:left">
+    <div class="sample back Mardex">
+      <div class="title brand">mardex7.com</div>
+      <div class="title giftcard">Lahjakortti</div>
+      <div class="title" style="margin-top: 10px;">-15% seuraavasta tilauksesta</div>
+      <div style="margin-top: 15px">
+        <span style="border: solid gray 1px; padding: 7px;">DYEZ-7HBX-CRUZ</span>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div style="clear: both"></div>
+  <hr />
+  <p> demo: maalinpaikka.fi</p>
+  <div style="float: left">
+    <div class="sample front Maalinpaikka">
+      <img class="logo" src="https://www.maalinpaikka.fi/WebRoot/vilkas01/Shops/25052010-172502/Styles/Vilkas[1]/logo.png" />
+      <div>
+        <span class="TitleMaalinpaikka">MAALINPAIKKA.FI</span>
+      </div>
+    </div>
+  </div>
+  <div style="float: left">
+    <div class="sample back Maalinpaikka">
+      <div class="title brand">maalinpaikka.fi</div>
+      <div class="title giftcard">Lahjakortti</div>
+      <div class="title" style="margin-top: 10px;">-15% seuraavasta tilauksesta</div>
+      <div style="margin-top: 15px">
+        <span style="border: solid gray 1px; padding: 7px;">DYEZ-7HBX-CRUZ</span>
+      </div>
+
+    </div>
+
+  </div>
+</body>
